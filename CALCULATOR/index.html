@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
 
+
+    <div id="calsi">
+        <div>
+            <input type="text" placeholder="0" id="inputfield">
+        </div>
+        <div>
+            <button onclick="clearOneChar()">C</button>
+            <button onclick="clearAll()">CE</button>
+            <button onclick="turnOn()">ON</button>
+            <button onclick="turnOff()">OFF</button>
+        </div>
+        <div>
+            <button onclick="getValues('9')">9</button>
+            <button onclick="getValues('8')">8</button>
+            <button onclick="getValues('7')">7</button>
+            <button onclick="getValues('+')">+</button>
+        </div>
+        <div>
+            <button onclick="getValues('6')">6</button>
+            <button onclick="getValues('5')">5</button>
+            <button onclick="getValues('4')">4</button>
+            <button onclick="getValues('-')">-</button>
+        </div>
+        <div>
+            <button onclick="getValues('3')">3</button>
+            <button onclick="getValues('2')">2</button>
+            <button onclick="getValues('1')">1</button>
+            <button onclick="getValues('*')">*</button>
+        </div>
+        <div>
+            <button onclick="getValues('.')">.</button>
+            <button onclick="getValues('0')">0</button>
+            <button onclick="getValues('/')">/</button>
+            <button onclick="calculate()">=</button>
+        </div>
+
+    </div>
+
+        <script src="./script.js"></script>
+    
+</body>
+</html>

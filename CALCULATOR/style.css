@@ -1,0 +1,29 @@
+#calsi{
+    width: 30%;
+    height: auto;
+    margin: 20px auto;
+    padding: 4px;
+    border: 1px solid grey;
+    background-image: linear-gradient(rgb(0, 0, 0),white,white,rgb(0, 0, 0));
+    border-radius: 8px;
+}
+
+button{
+    border-radius: 50%;
+    width: 22%;
+    margin: 2px;
+    padding: 4px;
+    background-image: radial-gradient(circle,white,black);
+}
+button:hover{
+    background-image: radial-gradient(circle,black,white);
+    color: white;
+}
+
+input[type="text"]{
+    height: 40px;
+    width: 97%;
+    font-size: 28px;
+    border-radius: 8px;
+}
+
